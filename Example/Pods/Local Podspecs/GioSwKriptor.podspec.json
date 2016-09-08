@@ -1,0 +1,27 @@
+{
+  "name": "GioSwKriptor",
+  "version": "0.1.0",
+  "summary": "A short description of GioSwKriptor.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/GioSwKriptor",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sercan Özen": "sozen@netas.com.tr"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/GioSwKriptor.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GioSwKriptor/Classes/**/*",
+  "dependencies": {
+    "OpenSSL-iOS": [
+      "~> 1.0.204"
+    ]
+  }
+}

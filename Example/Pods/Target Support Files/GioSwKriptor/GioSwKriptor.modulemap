@@ -1,0 +1,6 @@
+framework module GioSwKriptor {
+  umbrella header "GioSwKriptor-umbrella.h"
+
+  export *
+  module * { export * }
+}
