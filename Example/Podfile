@@ -1,0 +1,7 @@
+use_frameworks!
+target 'GioSwKriptor_Tests' do
+  pod 'GioSwKriptor', :path => '../'
+  
+  pod 'Quick', '~> 0.8'
+  pod 'Nimble', '~> 3.0'
+end
