@@ -3,6 +3,7 @@
 import Quick
 import Nimble
 import GioSwKriptor
+import OpenSSL
 
 class TableOfContentsSpec: QuickSpec {
     override func spec() {

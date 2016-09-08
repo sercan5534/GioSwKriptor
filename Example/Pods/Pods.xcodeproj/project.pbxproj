@@ -13,15 +13,18 @@
 		135B6326D35C977854AA0C12B3F6CB7D /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3E16B4B70D033E87092BA47963AC58 /* DSL.swift */; };
 		13CC849FA70CADF802470B6A90DCDF79 /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC03804D030DEA06C6F81976FCDC982 /* AllPass.swift */; };
 		18603A1C6BF35AFAF448C2AA7B272B66 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E0A4DA5446EC67E3A7E8655EB8E886 /* Filter.swift */; };
-		195F391B8C66E77F48E5AB918F96BFD9 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B163507130F5BD7C677CE95E17357D0B /* ReplaceMe.swift */; };
+		1D9F88641C52E610E455063F277DF177 /* GioConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A295672D7C674F3B4331BB9924337EB0 /* GioConversion.swift */; };
 		1ED8C77E9422C66BBF56E6C10D5826F0 /* NMBExceptionCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 33315FF81670FB75F31FD751982BDB14 /* NMBExceptionCapture.m */; };
+		2194560763D03E3779D45599DCD47CE4 /* GioDH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D673AF045CB82776F6014AC89D2417A /* GioDH.swift */; };
 		23626BC4DDA1A2E90A155728F57802FF /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE32C3EA4C0B31ED537E8A79A8D4A37 /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24E4F3525F96E4A7FFB2069FC8B8EEA8 /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF40B85A11540679CB700F30D8658227 /* ExampleHooks.swift */; };
 		2518EFA087B35DED422AB95B68A235DB /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9921F8A9DB791B9887DBBA61310D2CFD /* Configuration.swift */; };
+		2EE728AFD05B8BC456E73695883D0118 /* GioSwKriptor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E143AC7FC78606BF5AF4F8E471BA1F /* GioSwKriptor-dummy.m */; };
 		306EFD5D4907C2E09ED9F6A8DB927D83 /* Quick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 054B12ABE55F218829D8A0A79B7B2BF0 /* Quick-dummy.m */; };
 		30AACAA8D51DC8C429577D9B67BB016C /* BeginWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A38E205C88AD0A912D644D83833379 /* BeginWith.swift */; };
 		313E1E7AB602691A1A337C4EAEBDF787 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7221CF3FCACBAAE7012D054B6BBE0028 /* Example.swift */; };
 		31629295E87A24C98238C66D41983C49 /* BeVoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4837AABD50FD8EF88AF78BBA2860227 /* BeVoid.swift */; };
+		36A375136A1438435EC49B2B76EA8F56 /* GioSwKriptor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A957E49EB9CD38AACA2EB6908C58ED0 /* GioSwKriptor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		388A051079CDA7962C45A9F79E926CC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */; };
 		38F5CE4B4C59A81734A93E32D35B696E /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5607A479106ABCF01566E8373B5B699 /* FailureMessage.swift */; };
 		3A26FF3C0110B348468F8D124E7893BF /* Pods-GioSwKriptor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE9777BC7B6576577606AAC2C462EEA2 /* Pods-GioSwKriptor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,7 +43,6 @@
 		63BBD83995BA60FA7D2E6AD4138C0D71 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAEAEE67785A735A5AD046C99F990F2 /* Functional.swift */; };
 		641CB49B738905997D6A82090A8060BC /* NSString+QCKSelectorName.h in Headers */ = {isa = PBXBuildFile; fileRef = 32D21298B936C528B51A04B97F52684E /* NSString+QCKSelectorName.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		64539BE196D1741570018FFF86F14133 /* MatcherFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778898B55ED9982653FBD7DB233F2493 /* MatcherFunc.swift */; };
-		64AFCE908D84409CDEAE2E516E7E5DCB /* GioSwKriptor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A957E49EB9CD38AACA2EB6908C58ED0 /* GioSwKriptor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64C96EFB57083BAC6EA562EDA5C921B9 /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C835B83AC84E3614431DD4A32BC026F /* QuickSpec.m */; };
 		68527A7545342CBB4F923DC8543F7B20 /* DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 807749B64F271A7CD48C40D83D67975E /* DSL.m */; };
 		6C031CD20D0C3B876F666E6C3E3A2DF7 /* SuiteHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA63F0B2573576DEB71DA0DDBE7056D /* SuiteHooks.swift */; };
@@ -69,19 +71,21 @@
 		9DB61C2C221E2B9EC03D6FA14FA3B18D /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1794B41F4AA3CFA6B076C839E19BE784 /* ExampleMetadata.swift */; };
 		9E01775A328FB7E451830D27BE8FE57B /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = A99FC9BB5334B0BAE704AFB1B9A4C176 /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F08F74CB8740CF0EFF26746EEB0C930 /* CurrentTestCaseTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F58DBBAE30F9CBB6B973A63E736FFF7 /* CurrentTestCaseTracker.m */; };
+		9F8FD078DC96B5C0CF6879498D7010E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */; };
 		A1C7FE8A690D83DBF3A490B23049D69F /* ErrorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B169640045709B77563F3C14ED96C6 /* ErrorUtility.swift */; };
 		A2CABD326609AD67377700A148785E09 /* BeAnInstanceOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2289E4F6EE059B37A55240943BECEF20 /* BeAnInstanceOf.swift */; };
 		A374A2729E32469085C5025EC7115EB8 /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD9EF1AEC805E3436A3E2CD7BE31D6C /* Stringers.swift */; };
 		A55EC200F57C00E9A78D8A9DA4545338 /* HaveCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FC621DE5282D89BFE608ECB4CF5DCF /* HaveCount.swift */; };
 		A5665A308360A4AFD4E6E6E4EEA633CA /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA16ED7DB69BDD6FA7E1EBB7502A60D /* ExampleGroup.swift */; };
 		A68F16D4409E0AC8634DA26BA67E44A5 /* HooksPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9462C401CB458FE13060163AB617B3A /* HooksPhase.swift */; };
-		A6EF2EEFE9E785A59C60A95877DD8283 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */; };
 		A9112C42A3AC2EA3ACED3459E9F0615A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */; };
+		ADBE6485937A17F816D041F9076F7962 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D7D7973287DC9350F6521CB8C447C0 /* StringExt.swift */; };
 		B02CA74533CFB0E695FB32E1637EC233 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D102797D9EFE4EB7F4B6E6517A7A02A /* Closures.swift */; };
 		B43EDBC7DA15A429006C67B63D45ACFD /* ThrowError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7369544F191AE6347661F14E8339C9 /* ThrowError.swift */; };
-		B9D12A75643E87A8C80039C7CB1EA2D1 /* GioSwKriptor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E143AC7FC78606BF5AF4F8E471BA1F /* GioSwKriptor-dummy.m */; };
+		B5182C487B243DC30D950171A8DC2232 /* ConversionErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B541B2AEAED53E73C06B38D8FB6CBA /* ConversionErrorType.swift */; };
 		B9D2E426B5CA226D60A78A71FA289D4C /* AsyncMatcherWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146387497AC5B4DEF5E9356792BAEE35 /* AsyncMatcherWrapper.swift */; };
 		B9EFC14F0510442622899BE419BBBF24 /* QuickSelectedTestSuiteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869D21214903FE4731C254FF1ECB6698 /* QuickSelectedTestSuiteBuilder.swift */; };
+		BDE7295C82D962050FCC315C2F3ACBC6 /* DHErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3202FA3BD943CA424939E17D5B44F6 /* DHErrorType.swift */; };
 		BF8B4EED1566188E29FDEF3687D9B1BE /* String+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130C4E5A5600976E73F47713794FDB82 /* String+FileName.swift */; };
 		C12E0930E021F1894B60BC6AFA8F2409 /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9AFDDA423F40F9D9742E6DA7051DB7 /* AdapterProtocols.swift */; };
 		C4D1852B174360A705F0C273EF2D684E /* Pods-GioSwKriptor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F63EB6A94258405680C4AF93F4F938 /* Pods-GioSwKriptor_Tests-dummy.m */; };
@@ -89,6 +93,7 @@
 		CD0A671D2A8DD31D50449BB358C56134 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = E040B22634CF886ADB659CCC37F20A54 /* Expression.swift */; };
 		D41F628A81153A978EB209E4FE925700 /* Nimble.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B909A4662A07F832EDCBF5667260D9 /* Nimble.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D42EAFF9124A9E558450B0FF5F990110 /* Quick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8379B64CA8433BD364349984501EDD3B /* Quick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5EB4BB145D400957CB2F431CFD01ADD /* NSDataExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E71D71C4D39E2DB94E7C28065AD865 /* NSDataExt.swift */; };
 		D69316A02FDDF528F18E7456C02D14AD /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6DD12B7C996C3F42C14E476DCA6FF1 /* World+DSL.swift */; };
 		DCA54337E8687685A293CC24A97F936C /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5146EB2CDB47F3A47260C83588BEF1 /* Contain.swift */; };
 		DF0216DBDE0084F6C87FE9275A4E9F0D /* Nimble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C48DA8D479A98749E43DDA28B9C98823 /* Nimble-dummy.m */; };
@@ -96,6 +101,7 @@
 		E909D0D33037F3C642BBB8D47FC642B3 /* Nimble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 540EDEC0A3E40593B98E32C6E0387022 /* Nimble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E96CACD3D708D169C774964989129877 /* NSString+QCKSelectorName.m in Sources */ = {isa = PBXBuildFile; fileRef = E58463374D5BCE15D26DA0B2D66C4C22 /* NSString+QCKSelectorName.m */; };
 		E9A500611CF699885DE8A6BAB4E6B392 /* BeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4879FC9DE1FA41808BDE78BCBD6802B /* BeEmpty.swift */; };
+		F12BC2216EF9D854DF5F2BE299184B9A /* GioAES.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96950F31D3346BBF1EF9AABEC40CAAB /* GioAES.swift */; };
 		F85A9207A8601CE7F835CEC56790616F /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEBD772FBF6B7D75C69924457D95424 /* Expectation.swift */; };
 		F9BF2291F3B677BB80296D75C5F43D79 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B89BF7315BAB3516AF2A51041DC39C3B /* XCTest.framework */; };
 		FB09A16A6662F2689D4AA89538DBF1C1 /* BeAKindOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739D29DE071417D758B2DC6A5724B6DD /* BeAKindOf.swift */; };
@@ -114,7 +120,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6F75C09C01EE49C366DAFC70151AC7C8;
+			remoteGlobalIDString = CE82C71E1FE6DDB58CF347A101DE43F8;
 			remoteInfo = GioSwKriptor;
 		};
 		E9E5F5960506B53233534ABBF57CC3FF /* PBXContainerItemProxy */ = {
@@ -150,6 +156,7 @@
 		2289E4F6EE059B37A55240943BECEF20 /* BeAnInstanceOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAnInstanceOf.swift; path = Sources/Nimble/Matchers/BeAnInstanceOf.swift; sourceTree = "<group>"; };
 		2480909FDDC6DDE3DF304C8BB2CC0E46 /* engine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = engine.h; path = openssl/engine.h; sourceTree = "<group>"; };
 		2485356FF17E10CF3D409B083B67ED77 /* ossl_typ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ossl_typ.h; path = openssl/ossl_typ.h; sourceTree = "<group>"; };
+		28D7D7973287DC9350F6521CB8C447C0 /* StringExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
 		2F58DBBAE30F9CBB6B973A63E736FFF7 /* CurrentTestCaseTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CurrentTestCaseTracker.m; path = Sources/Nimble/objc/CurrentTestCaseTracker.m; sourceTree = "<group>"; };
 		30A1CC2094CFF865AA4A6750B497CE6F /* asn1t.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1t.h; path = openssl/asn1t.h; sourceTree = "<group>"; };
 		319B9B5075412BB8EEBDBA1D3AA94502 /* rand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rand.h; path = openssl/rand.h; sourceTree = "<group>"; };
@@ -203,6 +210,7 @@
 		769ACB6BCF59B700AC967EBE84B50B4B /* World+DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "World+DSL.h"; path = "Sources/Quick/DSL/World+DSL.h"; sourceTree = "<group>"; };
 		778898B55ED9982653FBD7DB233F2493 /* MatcherFunc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherFunc.swift; path = Sources/Nimble/Wrappers/MatcherFunc.swift; sourceTree = "<group>"; };
 		77E4321A6AC16B0D861FF85DE632EECD /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Sources/Quick/Callsite.swift; sourceTree = "<group>"; };
+		77E71D71C4D39E2DB94E7C28065AD865 /* NSDataExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSDataExt.swift; sourceTree = "<group>"; };
 		77FC621DE5282D89BFE608ECB4CF5DCF /* HaveCount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HaveCount.swift; path = Sources/Nimble/Matchers/HaveCount.swift; sourceTree = "<group>"; };
 		7A066FC2EBCC40197B2347B1FE8073F4 /* QuickTestSuite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTestSuite.swift; path = Sources/Quick/QuickTestSuite.swift; sourceTree = "<group>"; };
 		7A87CC6D02127840FACCD4B8947796BD /* lhash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lhash.h; path = openssl/lhash.h; sourceTree = "<group>"; };
@@ -220,6 +228,7 @@
 		8B9AFDDA423F40F9D9742E6DA7051DB7 /* AdapterProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdapterProtocols.swift; path = Sources/Nimble/Adapters/AdapterProtocols.swift; sourceTree = "<group>"; };
 		8CD9EF1AEC805E3436A3E2CD7BE31D6C /* Stringers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stringers.swift; path = Sources/Nimble/Utils/Stringers.swift; sourceTree = "<group>"; };
 		8CDEA15E1FCC3D7F1ACC23F82E134AF8 /* comp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = comp.h; path = openssl/comp.h; sourceTree = "<group>"; };
+		8D673AF045CB82776F6014AC89D2417A /* GioDH.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GioDH.swift; sourceTree = "<group>"; };
 		8D6DD12B7C996C3F42C14E476DCA6FF1 /* World+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "World+DSL.swift"; path = "Sources/Quick/DSL/World+DSL.swift"; sourceTree = "<group>"; };
 		8DA8D8DADA311DB9C4DD063F6D7106EB /* AssertionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionRecorder.swift; path = Sources/Nimble/Adapters/AssertionRecorder.swift; sourceTree = "<group>"; };
 		8E45F37695BD3183EF07924434232088 /* GioSwKriptor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GioSwKriptor-prefix.pch"; sourceTree = "<group>"; };
@@ -250,6 +259,7 @@
 		A0266B07C003E3F429736A13D1721CF7 /* BeNil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeNil.swift; path = Sources/Nimble/Matchers/BeNil.swift; sourceTree = "<group>"; };
 		A0DB93E0092741CA65432A748DB53416 /* pqueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pqueue.h; path = openssl/pqueue.h; sourceTree = "<group>"; };
 		A1618EB4A414F17CC57AC3BD8FF5971B /* pem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pem.h; path = openssl/pem.h; sourceTree = "<group>"; };
+		A295672D7C674F3B4331BB9924337EB0 /* GioConversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GioConversion.swift; sourceTree = "<group>"; };
 		A2F26B08551E88EA29243E2FBDB9B416 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4067CBA11B3C32CA4D7E713C991B165 /* ObjCExpectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjCExpectation.swift; path = Sources/Nimble/ObjCExpectation.swift; sourceTree = "<group>"; };
 		A494839C03E8FB2D39AB44E2A586856A /* BeCloseTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeCloseTo.swift; path = Sources/Nimble/Matchers/BeCloseTo.swift; sourceTree = "<group>"; };
@@ -263,7 +273,6 @@
 		AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		AC7369544F191AE6347661F14E8339C9 /* ThrowError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowError.swift; path = Sources/Nimble/Matchers/ThrowError.swift; sourceTree = "<group>"; };
 		AFAEAEE67785A735A5AD046C99F990F2 /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Sources/Nimble/Utils/Functional.swift; sourceTree = "<group>"; };
-		B163507130F5BD7C677CE95E17357D0B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		B1B69F306D4A42C562C4C17F702DF1DD /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = openssl/aes.h; sourceTree = "<group>"; };
 		B3F0BC362D994D3F61C72B4D3D698009 /* Nimble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-prefix.pch"; sourceTree = "<group>"; };
 		B407C2A6FB95185CD4DC0D8F25BEF912 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -279,6 +288,8 @@
 		C4837AABD50FD8EF88AF78BBA2860227 /* BeVoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeVoid.swift; path = Sources/Nimble/Matchers/BeVoid.swift; sourceTree = "<group>"; };
 		C48DA8D479A98749E43DDA28B9C98823 /* Nimble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nimble-dummy.m"; sourceTree = "<group>"; };
 		C7873CB134FA01DFFC024053F0BD8034 /* seed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = seed.h; path = openssl/seed.h; sourceTree = "<group>"; };
+		C8B541B2AEAED53E73C06B38D8FB6CBA /* ConversionErrorType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConversionErrorType.swift; sourceTree = "<group>"; };
+		C96950F31D3346BBF1EF9AABEC40CAAB /* GioAES.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GioAES.swift; sourceTree = "<group>"; };
 		CA74755F23D8805DFB0E5EE04FEF88DF /* mdc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mdc2.h; path = openssl/mdc2.h; sourceTree = "<group>"; };
 		CD9380F7FB5A10DBE29F11E2E9635D7F /* ObjCMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjCMatcher.swift; path = Sources/Nimble/Wrappers/ObjCMatcher.swift; sourceTree = "<group>"; };
 		CDEA62C427DD2F0CCC051B66B8FB6112 /* MatcherProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherProtocols.swift; path = Sources/Nimble/Matchers/MatcherProtocols.swift; sourceTree = "<group>"; };
@@ -306,6 +317,7 @@
 		E6224528A3610EC2EE2967FF2092AEB7 /* RaisesException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RaisesException.swift; path = Sources/Nimble/Matchers/RaisesException.swift; sourceTree = "<group>"; };
 		EB31B802942FFED7E3F257AF75C9D4D0 /* Nimble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Nimble.modulemap; sourceTree = "<group>"; };
 		EC15E0BCDD0172AB9628FECCE7FE4544 /* blowfish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blowfish.h; path = openssl/blowfish.h; sourceTree = "<group>"; };
+		EC3202FA3BD943CA424939E17D5B44F6 /* DHErrorType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DHErrorType.swift; sourceTree = "<group>"; };
 		EDC03804D030DEA06C6F81976FCDC982 /* AllPass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllPass.swift; path = Sources/Nimble/Matchers/AllPass.swift; sourceTree = "<group>"; };
 		F087FB2B96B2B6F8DABEFFFBDF545792 /* Pods-GioSwKriptor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GioSwKriptor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F0B43E442AA2D1B29899BC573CA0F419 /* Nimble.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nimble.xcconfig; sourceTree = "<group>"; };
@@ -320,11 +332,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18670DEFEFFBD4840BAFA76727E0CB64 /* Frameworks */ = {
+		48B20B473C8C2C81C50E390052B99499 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6EF2EEFE9E785A59C60A95877DD8283 /* Foundation.framework in Frameworks */,
+				9F8FD078DC96B5C0CF6879498D7010E0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +493,14 @@
 			name = Framework;
 			sourceTree = "<group>";
 		};
+		31D11EF6969903014FD9884D80BBD6E4 /* GioSwKriptor */ = {
+			isa = PBXGroup;
+			children = (
+				E28A6231C936FB9DAF89F44FF87A2178 /* Classes */,
+			);
+			path = GioSwKriptor;
+			sourceTree = "<group>";
+		};
 		32B5250FBB1343EC596D0BAEC6831FF8 /* Pods-GioSwKriptor_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -622,14 +642,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		94AAF0363D6D9F09B4D1C63776761858 /* GioSwKriptor */ = {
-			isa = PBXGroup;
-			children = (
-				C4E01E82C0A99DA8B351939FF6464616 /* Classes */,
-			);
-			path = GioSwKriptor;
-			sourceTree = "<group>";
-		};
 		9EF89927DF112EFD010D22633AFB6058 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -647,19 +659,11 @@
 		AA4E10779A1F237C6E1EFA9E41EE01DD /* GioSwKriptor */ = {
 			isa = PBXGroup;
 			children = (
-				94AAF0363D6D9F09B4D1C63776761858 /* GioSwKriptor */,
+				31D11EF6969903014FD9884D80BBD6E4 /* GioSwKriptor */,
 				9EF89927DF112EFD010D22633AFB6058 /* Support Files */,
 			);
 			name = GioSwKriptor;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		C4E01E82C0A99DA8B351939FF6464616 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				B163507130F5BD7C677CE95E17357D0B /* ReplaceMe.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		C738DAC971253C4CC94149DBC325CC25 /* Support Files */ = {
@@ -683,6 +687,20 @@
 				B89BF7315BAB3516AF2A51041DC39C3B /* XCTest.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		E28A6231C936FB9DAF89F44FF87A2178 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C8B541B2AEAED53E73C06B38D8FB6CBA /* ConversionErrorType.swift */,
+				EC3202FA3BD943CA424939E17D5B44F6 /* DHErrorType.swift */,
+				C96950F31D3346BBF1EF9AABEC40CAAB /* GioAES.swift */,
+				A295672D7C674F3B4331BB9924337EB0 /* GioConversion.swift */,
+				8D673AF045CB82776F6014AC89D2417A /* GioDH.swift */,
+				77E71D71C4D39E2DB94E7C28065AD865 /* NSDataExt.swift */,
+				28D7D7973287DC9350F6521CB8C447C0 /* StringExt.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		E4B1B1436D967BB474CB7BF0D90BA6F5 /* Development Pods */ = {
@@ -722,19 +740,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		759C26BE7B3339149C600F2F83895F25 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				64AFCE908D84409CDEAE2E516E7E5DCB /* GioSwKriptor-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		87150D09F1BB1265E4DA35381C8E6AEF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3A26FF3C0110B348468F8D124E7893BF /* Pods-GioSwKriptor_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B578E153464788774B2FE65485B2F3C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36A375136A1438435EC49B2B76EA8F56 /* GioSwKriptor-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -761,23 +779,6 @@
 			productReference = 822AA109EA8DA8C37A746A17BFA82207 /* Pods_GioSwKriptor_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6F75C09C01EE49C366DAFC70151AC7C8 /* GioSwKriptor */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 566BCF26E9CBF857C9413D95371FEDC6 /* Build configuration list for PBXNativeTarget "GioSwKriptor" */;
-			buildPhases = (
-				F32DD28F5CD43896E833D62297F3EBEB /* Sources */,
-				18670DEFEFFBD4840BAFA76727E0CB64 /* Frameworks */,
-				759C26BE7B3339149C600F2F83895F25 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = GioSwKriptor;
-			productName = GioSwKriptor;
-			productReference = 8B858EF77FF236C9A50B04658DCAADDC /* GioSwKriptor.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		952FD918BBC413B2977DBF6BCB921974 /* Quick */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F35C3ECD4F804A6D6D75F2F220029CE0 /* Build configuration list for PBXNativeTarget "Quick" */;
@@ -793,6 +794,23 @@
 			name = Quick;
 			productName = Quick;
 			productReference = 9BABF96254FDDA6990B0FF05553DA69E /* Quick.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE82C71E1FE6DDB58CF347A101DE43F8 /* GioSwKriptor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13350E1E9778B47E74ABF182AA16A7B5 /* Build configuration list for PBXNativeTarget "GioSwKriptor" */;
+			buildPhases = (
+				CCED8D02701D63B684E3DC6B11A11EBC /* Sources */,
+				48B20B473C8C2C81C50E390052B99499 /* Frameworks */,
+				B578E153464788774B2FE65485B2F3C5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GioSwKriptor;
+			productName = GioSwKriptor;
+			productReference = 8B858EF77FF236C9A50B04658DCAADDC /* GioSwKriptor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FF61C7C740C1B196A3B33F37B77DBC68 /* Nimble */ = {
@@ -833,7 +851,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6F75C09C01EE49C366DAFC70151AC7C8 /* GioSwKriptor */,
+				CE82C71E1FE6DDB58CF347A101DE43F8 /* GioSwKriptor */,
 				FF61C7C740C1B196A3B33F37B77DBC68 /* Nimble */,
 				06C6C7B3151020F90D61C94A1BB02180 /* Pods-GioSwKriptor_Tests */,
 				952FD918BBC413B2977DBF6BCB921974 /* Quick */,
@@ -935,12 +953,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F32DD28F5CD43896E833D62297F3EBEB /* Sources */ = {
+		CCED8D02701D63B684E3DC6B11A11EBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9D12A75643E87A8C80039C7CB1EA2D1 /* GioSwKriptor-dummy.m in Sources */,
-				195F391B8C66E77F48E5AB918F96BFD9 /* ReplaceMe.swift in Sources */,
+				B5182C487B243DC30D950171A8DC2232 /* ConversionErrorType.swift in Sources */,
+				BDE7295C82D962050FCC315C2F3ACBC6 /* DHErrorType.swift in Sources */,
+				F12BC2216EF9D854DF5F2BE299184B9A /* GioAES.swift in Sources */,
+				1D9F88641C52E610E455063F277DF177 /* GioConversion.swift in Sources */,
+				2194560763D03E3779D45599DCD47CE4 /* GioDH.swift in Sources */,
+				2EE728AFD05B8BC456E73695883D0118 /* GioSwKriptor-dummy.m in Sources */,
+				D5EB4BB145D400957CB2F431CFD01ADD /* NSDataExt.swift in Sources */,
+				ADBE6485937A17F816D041F9076F7962 /* StringExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -962,41 +986,12 @@
 		9F7DFE8F53F40EC560D063035F25A345 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GioSwKriptor;
-			target = 6F75C09C01EE49C366DAFC70151AC7C8 /* GioSwKriptor */;
+			target = CE82C71E1FE6DDB58CF347A101DE43F8 /* GioSwKriptor */;
 			targetProxy = 70E48679CEDFBCEE2510DBB5E5423963 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0595C7F74120065F59EAFC9B1433D802 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF4FF0012ACA6972A1C6233F30432503 /* GioSwKriptor.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GioSwKriptor/GioSwKriptor-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GioSwKriptor/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GioSwKriptor/GioSwKriptor.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = GioSwKriptor;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1093,6 +1088,65 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		725B8035137709FBDC97D02A8425E0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF4FF0012ACA6972A1C6233F30432503 /* GioSwKriptor.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GioSwKriptor/GioSwKriptor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GioSwKriptor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GioSwKriptor/GioSwKriptor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GioSwKriptor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		827F10C8BC3ADD0BBC4852602E581760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF4FF0012ACA6972A1C6233F30432503 /* GioSwKriptor.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GioSwKriptor/GioSwKriptor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GioSwKriptor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GioSwKriptor/GioSwKriptor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GioSwKriptor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		8DB405CBBAF953181F0D7782DD17DEA3 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1198,36 +1252,6 @@
 			};
 			name = Debug;
 		};
-		D9F22DAF8B1D43780B7368B772B7BC60 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF4FF0012ACA6972A1C6233F30432503 /* GioSwKriptor.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GioSwKriptor/GioSwKriptor-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GioSwKriptor/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GioSwKriptor/GioSwKriptor.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = GioSwKriptor;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		E959490B82EF6AD788C5833904D57D87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A5947243BF8D8A89E348A1895EF8E8BA /* Pods-GioSwKriptor_Tests.debug.xcconfig */;
@@ -1295,6 +1319,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		13350E1E9778B47E74ABF182AA16A7B5 /* Build configuration list for PBXNativeTarget "GioSwKriptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725B8035137709FBDC97D02A8425E0CE /* Debug */,
+				827F10C8BC3ADD0BBC4852602E581760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1309,15 +1342,6 @@
 			buildConfigurations = (
 				E959490B82EF6AD788C5833904D57D87 /* Debug */,
 				8DB405CBBAF953181F0D7782DD17DEA3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		566BCF26E9CBF857C9413D95371FEDC6 /* Build configuration list for PBXNativeTarget "GioSwKriptor" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D9F22DAF8B1D43780B7368B772B7BC60 /* Debug */,
-				0595C7F74120065F59EAFC9B1433D802 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

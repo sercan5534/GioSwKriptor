@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6F75C09C01EE49C366DAFC70151AC7C8'
+               BlueprintIdentifier = 'CE82C71E1FE6DDB58CF347A101DE43F8'
                BlueprintName = 'GioSwKriptor'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'GioSwKriptor.framework'>

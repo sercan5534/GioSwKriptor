@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of GioSwKriptor.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/GioSwKriptor",
+  "homepage": "https://github.com/sercan5534/GioSwKriptor",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Sercan Özen": "sozen@netas.com.tr"
+    "Sercan Özen": "sercangsu@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/GioSwKriptor.git",
+    "git": "https://github.com/sercan5534/GioSwKriptor.git",
     "tag": "0.1.0"
   },
   "platforms": {
