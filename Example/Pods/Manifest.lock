@@ -1,6 +1,6 @@
 PODS:
-  - GioSwKriptor (0.1.0):
-    - OpenSSL-iOS (~> 1.0.204)
+  - GioSwKriptor (0.1.1):
+    - OpenSSL-iOS (= 1.0.204)
   - Nimble (3.2.0)
   - OpenSSL-iOS (1.0.204):
     - OpenSSL-iOS/Framework (= 1.0.204)
@@ -10,7 +10,6 @@ PODS:
 DEPENDENCIES:
   - GioSwKriptor (from `../`)
   - Nimble (~> 3.0)
-  - OpenSSL-iOS (~> 1.0.204)
   - Quick (~> 0.8)
 
 EXTERNAL SOURCES:
@@ -18,11 +17,11 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  GioSwKriptor: b02f680dd06f4a66aba6a1f7b04a917e90f4e812
+  GioSwKriptor: c327d1134729d991e49f1a925ecd91dd0505f5cc
   Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
   OpenSSL-iOS: 002cabfdfc2df48d63cebd723b90ada86c946316
   Quick: 18d057bc66451eedd5d1c8dc99ba2a5db6e60226
 
-PODFILE CHECKSUM: 31dfb0a8207c011dbb08a15541d66a60e21f367d
+PODFILE CHECKSUM: b621c323a6adb729503fe76c4997cbe5cb5548f4
 
 COCOAPODS: 1.0.1

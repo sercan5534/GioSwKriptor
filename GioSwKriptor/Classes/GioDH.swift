@@ -7,11 +7,6 @@
 //
 
 import Foundation
-import OpenSSL.bn
-import OpenSSL.dh
-import OpenSSL.ossl_typ
-
-
 
 enum DHError:ErrorType{
     case DHGeneration

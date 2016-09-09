@@ -4,5 +4,4 @@ target 'GioSwKriptor_Tests' do
   
   pod 'Quick', '~> 0.8'
   pod 'Nimble', '~> 3.0'
-  pod 'OpenSSL-iOS', '~> 1.0.204'
 end
