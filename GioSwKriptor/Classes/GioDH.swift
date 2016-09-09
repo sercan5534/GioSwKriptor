@@ -20,7 +20,7 @@ public class GioDH{
     var dh: UnsafeMutablePointer<DH>
     var myDHPubKey:String?
     var myDHPrivKey:String?
-    var commonKey:String?
+    public var commonKey:String?
     
     /**
      Constructor method

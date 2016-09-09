@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GioSwKriptor'
-  s.version          = '0.1.4'
-  s.summary          = 'GioSwKriptor is a wrapper library of OPENSSL for swift.'
+  s.version          = '0.1.5'
+  s.summary          = '"c"'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
