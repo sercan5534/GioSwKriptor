@@ -22,7 +22,7 @@ pod "GioSwKriptor"
 
 ## Author
 
-Sercan Özen, sozen@netas.com.tr
+Sercan Özen, sercangsu@gmail.com
 
 ## License
 
