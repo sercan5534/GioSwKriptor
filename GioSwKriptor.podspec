@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GioSwKriptor'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of GioSwKriptor.'
+  s.version          = '0.1.4'
+  s.summary          = 'GioSwKriptor is a wrapper library of OPENSSL for swift.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+GioSwKriptor is in development process and it just does Diffie-Helman key exchange according to 2048-bit MODP Group with 256-bit Prime Order Subgroup in RFC5114(https://tools.ietf.org/html/rfc5114)
                        DESC
 
   s.homepage         = 'https://github.com/sercan5534/GioSwKriptor'
@@ -31,12 +31,18 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'GioSwKriptor/Classes/**/*'
-  
+  s.ios.source_files        = 'GioSwKriptor/openssl-ios/openssl/*.h'
+#s.ios.public_header_files = 'GioSwKriptor/openssl-ios/openssl/*.h'
+ s.ios.preserve_paths      = 'GioSwKriptor/openssl-ios/libcrypto.a', 'GioSwKriptor/openssl-ios/libssl.a'
+s.ios.vendored_libraries  = 'GioSwKriptor/openssl-ios/libcrypto.a', 'GioSwKriptor/openssl-ios/libssl.a'
+
   # s.resource_bundles = {
   #   'GioSwKriptor' => ['GioSwKriptor/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'OpenSSL-iOS', '~> 1.0.204'
+  # s.frameworks = 'OpenSSL-iOS'
+ s.dependency  'OpenSSL-iOS','1.0.204'
+#   s.module_map = 'Example/Pods/OpenSSL-iOS/module.modulemap'
 end
